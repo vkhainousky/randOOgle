@@ -9,23 +9,12 @@
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
-<nav class="header">
-    <p>WARNING! THIS SECTION OF THIS SITE IS 17+ ONLY!</p>
-  <div class="col-xs-8">
-    <ul>
-      <li><a href="#"><i class="fa fa-2x fa-user-circle-o" aria-hidden="true"></i></a></li>
-      <li><a href="#"><i class="fa fa-2x fa-bell" aria-hidden="true"></i></a></li>
-      <li><a href="#"><i class="fa fa-2x fa-bars" aria-hidden="true"></i></a></li>
-    </ul>
-  </div>
-</nav>
-<div class="google-logo">
+<center>
   <img src="images/randOOgle.gif" height="105px" width="250px" alt="google-logo" title="google-logo">
-</div>
-<form action="search.php">
+<form action="search.php" target="_blank">
     <input type="submit" value="I'm Feeling Lucky" id="lucky_button">
 </form>
+</center>
 
 </br>
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -65,15 +54,10 @@
     </div>
   </div>
 </div>
-<div class="footer">
-  <div class='container-fluid'>
     <div class='col-md-4'>
       <a data-toggle="modal" data-target="#exampleModal2" class='footer-link move-left'>About</a>
       <a data-toggle="modal" data-target="#exampleModal" class='footer-link move-left'>How does this work?</a>
     </div>
     <div class='col-md-8'>
-      <a href="#" class='footer-link move-right'>Download source on Git</a>
+      <a href="https://github.com/vkhainousky/randOOgle" target="_blank" class='footer-link move-right'>Download source on Git</a>
     </div>
-  </div>
-
-</div>
